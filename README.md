@@ -1,11 +1,7 @@
 # BupapestPassword
 
- A register form making you enter a password with a capital city
+ A register form making you enter a password with a kerület of budapest
 
+this is a genuine cry for help
 
-
-<img src="img/demo.gif" title="" alt="demo.gif" width="571">
-
-
-
-List of capital cities is as of 21.10.2021, based on [Wikipedia](https://simple.wikipedia.org/wiki/List_of_national_capitals). WILL BE DETERMINATED
+List of kerülets is as of 21.10.2021, don't need to even check it as it won't change until budapest gets demolitioned, based on [Wikipedia](https://hu.wikipedia.org/wiki/Budapest_ker%C3%BCletei). WILL BE DETERMINATED
