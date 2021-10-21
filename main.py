@@ -5,6 +5,8 @@ app = Flask(__name__)
 
 with io.open("kerulets.txt", mode="r", encoding="utf-8") as f :
     capitals = f.read().split("\n")
+    
+del capitals[-1] #i fucking hate this language
 
 def listInStr(list, str) :
     for x in list :
