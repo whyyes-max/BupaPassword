@@ -24,13 +24,13 @@ def registerHandler() :
     pswd = request.form["password"]
 
     if not len(usr) > 2 :
-        return render_template("register.html", error="neved 3 karakter hossz..", usr=usr, pswd=pswd)
+        return render_template("register.html", error="neved 3 (karak)ter hossz..", usr=usr, pswd=pswd)
 
     if not len(pswd) > 2 :
-        return render_template("register.html", error="szavad 3 karakter hossz..", usr=usr, pswd=pswd)
+        return render_template("register.html", error="szavad 3 (karak)ter hossz..", usr=usr, pswd=pswd)
 
     if len(pswd) > 32 :
-        return render_template("register.html", error="szavad 365 (nap trianon végéig) karakter hossz-nál több..", usr=usr, pswd=pswd)
+        return render_template("register.html", error="szavad 365 (nap trianon végéig) (karak)ter hossz-nál több..", usr=usr, pswd=pswd)
 
     if not listInStr(["1","2","3","4","5","6","7","8","9"], pswd) :
         return render_template("register.html", error="kell egy number ami nem 0", usr=usr, pswd=pswd)
